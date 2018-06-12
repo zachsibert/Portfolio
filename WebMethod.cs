@@ -51,11 +51,11 @@ public class ws : System.Web.Services.WebService {
      */
 
 
-
-    static string consumerKey = "QicQmvc0dhor0scuqCuzt160X";
-    static string consumerKeySecret = "tTrxFWqOT3PrZRD6jSj1BeZ8VSC78kfBBWagxDfKmqYvg2KgYR";
-    static string accessToken = "909114325-BmJULIAjCf13x0XVmMWJKPnOznr8sBh7iFRRqYl4";
-    static string accessTokenSecret = "iNBl96FSx6z6fO6zyg7ZOYPD5xwpicGXOTSKnruV32gUw";
+    // Keys are hidden in GitHub for privacy
+    static string consumerKey = "12345";
+    static string consumerKeySecret = "12345";
+    static string accessToken = "909114325-12345";
+    static string accessTokenSecret = "12345";
 
     static Twitter bot = new Twitter(consumerKey, consumerKeySecret, accessToken, accessTokenSecret);
 
