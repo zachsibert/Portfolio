@@ -1,0 +1,15 @@
+<div>
+  <button type="submit" (click) = "startGame()" (click) = "window.location.reload()">Start a New Game</button>
+
+  <app-hanging-man *ngIf="gameRecord" [gameRecord]="gameRecord"></app-hanging-man>
+  
+  <div *ngIf="gameRecord.countIncorrectGuesses == 10" >You Lose! Click "Start a New game" then refresh the page to play again</div>
+
+  <div *ngIf="gameRecord.result == 1" >You Win!</div>
+
+  Wins: {{ gameWins.wins }} Losses: {{ gameLosses.losses }}
+
+  <app-stats class="app-stats" *ngIf="gameRecord" [gameRecord]="gameRecord"></app-stats>
+
+  <app-word-display class="app-word-display" *ngIf="gameRecord" [gameRecord]="gameRecord"></app-word-display>
+</div>

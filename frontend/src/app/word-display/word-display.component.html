@@ -1,0 +1,9 @@
+<span class ="hiddenword" *ngFor="let hiddenword of hiddenWord">{{ hiddenword }} </span>
+
+<div>
+  <input type="text" #guessLetterBox required maxlength="1" placeholder="Format: lowercase letter">
+  <button type="submit" (click) = "guessLetter(guessLetterBox.value)" (click) = "guessLetterBox.value = ''">Guess Letter</button>
+</div>
+
+
+

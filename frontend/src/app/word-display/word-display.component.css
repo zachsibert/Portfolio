@@ -1,0 +1,13 @@
+span {
+    font-family: "Courier New", Courier, monospace;  
+}
+
+input {
+    width: 130px;
+}
+
+button {
+    margin: 10px;
+    padding: 2px;
+    width: 90px;
+}
