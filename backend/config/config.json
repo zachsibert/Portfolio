@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "sibertzt35",
-    "password": "SkyyLucyLuna35",
-    "database": "hangmandb",
-    "host": "hangmangameinstancesibertzt.calt3jplsxwu.us-east-1.rds.amazonaws.com",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
     "dialect": "mysql"
   },
   "test": {
